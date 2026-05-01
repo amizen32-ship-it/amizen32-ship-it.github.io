@@ -1,0 +1,106 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(./images/fond.png);
+}
+div img{
+	width:1350px;
+	border: 2px solid black;
+
+}
+header{
+	padding: 15px;
+}
+header h4{
+	color: red;
+	margin-top: 1rem;
+
+}
+li{
+	text-decoration: none;
+	display: flex;
+}
+li a{
+	text-decoration: none;
+	color: red;
+	font-weight:bold;
+}
+nav li{
+	display: inline-block;
+	align-items: center;
+	margin-right: 5rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	width: 10%;
+}
+article{
+	width: 60%;
+	margin-left: 25px;
+}
+aside{
+	color: rgb(82, 22, 223);
+	background-color: rgba(231, 220, 241, 0.774);
+	width: 30%;
+	border: 2px solid rgb(216, 191, 215);
+	border-radius: 5%;
+	vertical-align: top;
+	margin-top: 10%;
+	padding-left: 1rem;
+	height: 300px;
+}
+article img{
+float: left;
+margin-right: 2rem;
+margin-top: 10px;
+margin-left: 2rem;
+}
+
+h3{
+	font-size: 35px;
+}
+article,aside{
+	display: inline-block;
+}
+header,nav, section,footer{
+	background-color: white;
+	padding-top: 10px;
+}
+section{
+	margin-bottom: 1%;
+}
+/* le pied de la page */
+footer div{
+	display: inline-block;
+	width: 20%;
+	margin-bottom: 3%;
+
+}
+ footer div p{color: rgb(224, 15, 15); 
+
+}
+.copyright{
+	color:blue;
+		margin-left: 2rem}
+/*
+uniquement pour la page fornation */
+table td{ background-color: rgb(243, 243, 102);
+border: 1px solid black;
+border-collapse: collapse;
+
+padding: 2%;
+}
+/* 
+uinquement pour la page contact */
+section div{width: 30%;
+	width: 35%;
+	border-radius: 5%;
+	vertical-align: top;
+	margin-top: 5%;
+	padding-left: 1rem;
+	margin-bottom: 2rem;
+}
+section article,div{
+	display: inline-block;
+}
+.formation{
+	margin-left: 2rem;
+}
